@@ -65,6 +65,8 @@ begin
   end process main;
 
   dout0 <= mem_sig(to_integer(unsigned(a0)));
+  dout1 <= mem_sig(to_integer(unsigned(a1)));
+  dout2 <= mem_sig(to_integer(unsigned(a2)));
 
 end architecture behavioral;
 
